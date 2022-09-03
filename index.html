@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 id="title">Survey Form project for campers</h1>
+<h3>This Page Is About Survey-Form</h3>
+<!--Form Section-->
+<form id="survey-form">
+  <div class ="form-container">
+  <label for="name" id="name-label" > Name  </label>
+  <!-- input Name Section -->
+      <input type="name" placeholder="Enter Your Name" name="name" id="name" min="10" required><br><br>
+  </div>
+       <div class="form-container">
+      <label for="email" id="email-label" > Email</label>
+      <!-- Input Email Section -->
+      <input type="email" name="email" placeholder="Enter email" id="email" required ><br><br>
+  </div>
+       <div class="form-container">
+         <label for="age" id="label-age"> Age</label>
+         <!-- Input Age Section -->
+         <input type="text" id="age" placeholder="Enter your age" />
+  </div>
+  <div class="form-container">
+  <br><h3>These Are My Reasons For Learning How To Code?</h3><br>
+    <!-- Input Radio Button -->
+    <label for="learning-1">
+        <input type="radio"id="learning-1"name="learning">facinating</input>
+        </label>
+        <label for="learning-2">
+            <input type="radio"id="learning-2"name="learning">money</input>
+            </label>
+            <label for="learning-3">
+               <input type="radio" id="learning-3" name="learning">Enlighten</input>
+                </label>
+                <!-- Input Checkbox Button -->
+<div class="form-container">
+   <br> <h3>Language known Are:</h3><br>
+  <input type="checkbox" id="html" name="input" value="HTML">
+  <label for="inpt-1">HTML</label><br>
+  <input type="checkbox" id="css" name="inpt" value="CSS">
+  <label for="inp2">CSS</label><br>
+  <input type="checkbox" id="javascript" name="inpt" value="JavaScript">
+  <label for="inp3">JavaScript</label><br><br>
+</div>
+     <!-- Comment Section -->
+     <div class="form-container">
+        <h4 for="comment">Please comments or suggestions </h4>
+          <textarea rows="4" cols="50" name="comment" form="usrform">Enter text here...</textarea>
+           <!-- Submit Button -->
+        <button type="submit" value="submit"> Submit </button>
+  <script src="script.js"></script>
+  </body>
+</html>

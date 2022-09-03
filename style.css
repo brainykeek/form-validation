@@ -1,0 +1,59 @@
+body {
+    background: linear-gradient(to right, hsl(200, 100%, 50%), hsl(175, 100%, 50%));
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 1rem;
+    
+  }
+  
+  #discription {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+  }
+  
+  form {
+     background-color: #fff;
+     max-width: 500px;
+     margin: 50px auto;
+     padding: 30px 20px;
+              
+  }
+  
+  .form-container {
+    text-align: left;
+    margin-bottom: 10px
+  }
+  
+  .form-container label {
+    display: block;
+  }
+  
+  .form-container input,
+  .form-container select,
+  .form-container textarea {
+      border: 1px solid #777;
+      border-radius: 2px;
+      font-family: 'Courier New', Courier, monospace;
+      padding: 10px;
+      display: block;
+      width: 95%;
+  }
+
+ .form-container input[type="radio"],
+ .form-container input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+ } 
+
+ button {
+     background-color: #05c46b;
+     border: 1px solid #777;
+     border-radius: 2px;
+     cursor: pointer;
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 21px;
+     display: block;
+     width: 100%;
+     margin-top: 50px;
+     margin-bottom: 20px;
+ }      
